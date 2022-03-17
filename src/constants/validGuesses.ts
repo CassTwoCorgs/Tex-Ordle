@@ -12999,5 +12999,6 @@ export const VALID_GUESSES = [
   'snake',
   'tejas',
   'texit',
-  'czech'
+  'czech',
+  'marfa'
 ]
