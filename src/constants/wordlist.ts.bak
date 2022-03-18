@@ -27,8 +27,7 @@ export const WORDS = [
   'snake',
   'tejas',
   'texit',
-  'czech',
-  'marfa'
+  'czech'
 /**
   'aside',
   'lakes',
