@@ -10,7 +10,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Brought to you by your friends 
-		at -{' '}
+		at {' '}
 		<a
 		  href="https://txhumor.com/"
 		  className="underline font-bold"
@@ -18,7 +18,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
 		  Texas Humor
 		</a>{' '}
 		, this is a Texas themed clone of an open source version of the word guessing game we all know and
-        love -{' '}
+        love {' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="underline font-bold"
