@@ -44,7 +44,6 @@ import {
 
 import './App.css'
 import { AlertContainer } from './components/alerts/AlertContainer'
-import { useAlert } from './context/AlertContext'
 import { Navbar } from './components/modals/navbar/Navbar'
 
 function App() {
