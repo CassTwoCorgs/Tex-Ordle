@@ -72,7 +72,7 @@ svg:hover {
   display: flex;
   height: 3rem;
   align-items: center;
-  justify-content: center;
+  flex-shrink: 1;
   color: var(--default-cell-bg-color)
 }
 

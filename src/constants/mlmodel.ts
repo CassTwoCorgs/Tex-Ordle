@@ -1,0 +1,1 @@
+export const app_link_toshare = "https://tex-ordle.vercel.app/"
