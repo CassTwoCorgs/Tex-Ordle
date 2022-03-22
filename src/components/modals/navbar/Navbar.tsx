@@ -18,20 +18,15 @@ export const Navbar = ({
   return (
     <div className="navbar">
       <div className="navbar-content px-5">
-        <InformationCircleIcon
-          className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
-          onClick={() => setIsInfoModalOpen(true)}
-        />
-        <div className="right-icons">
-          <ChartBarIcon
-            className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"
-            onClick={() => setIsStatsModalOpen(true)}
-          />
-          <CogIcon
-            className="h-6 w-6 cursor-pointer dark:stroke-white"
-            onClick={() => setIsSettingsModalOpen(true)}
-          />
-        </div>
+		<p className= "text-xl ml-2.5 font-normal dark:text-white">Brought to you by the folks 
+		at {' '}
+		  <a
+		    href="https://txhumor.com/"
+		    className="underline font-bold"
+		  >
+		    Texas Humor
+		  </a>{' '}
+		</p>
       </div>
       <hr></hr>
     </div>
