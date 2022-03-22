@@ -1,9 +1,3 @@
-import {
-  ChartBarIcon,
-  CogIcon,
-  InformationCircleIcon,
-} from '@heroicons/react/outline'
-
 type Props = {
   setIsInfoModalOpen: (value: boolean) => void
   setIsStatsModalOpen: (value: boolean) => void
