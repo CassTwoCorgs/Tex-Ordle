@@ -42,7 +42,7 @@ import {
 } from './lib/localStorage'
 
 import './App.css'
-import { Navbar } from './components/modals/navbar/Navbar'
+import { Navbar } from './components/navbar/Navbar'
 
 function App() {
   const prefersDarkMode = window.matchMedia(
