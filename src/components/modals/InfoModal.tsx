@@ -40,6 +40,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="M" />
         <Cell value="A" />
         <Cell value="R" />
+        <Cell value="F" status="absent" />
         <Cell value="A" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
