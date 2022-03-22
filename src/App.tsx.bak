@@ -240,7 +240,7 @@ function App() {
 
   return (
     <>
-	  <div className="h-screen flex flex-col">
+	  <div className="min-h-fit flex flex-cool">
       <Navbar
         setIsInfoModalOpen={setIsInfoModalOpen}
         setIsStatsModalOpen={setIsStatsModalOpen}
