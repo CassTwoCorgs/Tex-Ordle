@@ -26,6 +26,7 @@ import {
   ALERT_TIME_MS,
   REVEAL_TIME_MS,
   GAME_LOST_INFO_DELAY,
+  WELCOME_INFO_MODAL_MS,
 } from './constants/settings'
 import {
   isWordInWordList,
@@ -42,6 +43,8 @@ import {
 } from './lib/localStorage'
 
 import './App.css'
+import { AlertContainer } from './components/alerts/AlertContainer'
+import { useAlert } from './context/AlertContext'
 import { Navbar } from './components/modals/navbar/Navbar'
 
 function App() {
@@ -49,6 +52,8 @@ function App() {
     '(prefers-color-scheme: dark)'
   ).matches
 
+  const { showError: showErrorAlert, showSuccess: showSuccessAlert } =
+    useAlert()
   const [currentGuess, setCurrentGuess] = useState('')
   const [isGameWon, setIsGameWon] = useState(false)
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false)
@@ -95,6 +100,16 @@ function App() {
       : false
   )
 
+  useEffect(() => {
+    // if no game state on load,
+    // show the user the how-to info modal
+    if (!loadGameStateFromLocalStorage()) {
+      setTimeout(() => {
+        setIsInfoModalOpen(true)
+      }, WELCOME_INFO_MODAL_MS)
+    }
+  }, [])
+  
   const [isMissingPreviousLetters, setIsMissingPreviousLetters] =
     useState(false)
   const [missingLetterMessage, setIsMissingLetterMessage] = useState('')
@@ -335,6 +350,7 @@ function App() {
         variant="success"
         topMost={true}
       />
+	  <AlertContainer />
     </div>
 	</>
   )

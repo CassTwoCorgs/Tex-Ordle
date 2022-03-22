@@ -42,6 +42,8 @@ import {
 } from './lib/localStorage'
 
 import './App.css'
+import { AlertContainer } from './components/alerts/AlertContainer'
+import { useAlert } from './context/AlertContext'
 import { Navbar } from './components/modals/navbar/Navbar'
 
 function App() {
@@ -49,6 +51,8 @@ function App() {
     '(prefers-color-scheme: dark)'
   ).matches
 
+  const { showError: showErrorAlert, showSuccess: showSuccessAlert } =
+    useAlert()
   const [currentGuess, setCurrentGuess] = useState('')
   const [isGameWon, setIsGameWon] = useState(false)
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false)
@@ -95,6 +99,16 @@ function App() {
       : false
   )
 
+  useEffect(() => {
+    // if no game state on load,
+    // show the user the how-to info modal
+    if (!loadGameStateFromLocalStorage()) {
+      setTimeout(() => {
+        setIsInfoModalOpen(true)
+      }, WELCOME_INFO_MODAL_MS)
+    }
+  }, [])
+  
   const [isMissingPreviousLetters, setIsMissingPreviousLetters] =
     useState(false)
   const [missingLetterMessage, setIsMissingLetterMessage] = useState('')
@@ -248,7 +262,7 @@ function App() {
       />
 	  </div>
     <div className="pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
-      <div className="flex w-80 mx-auto items-center mb-8 mt-1 grow">
+      <div className="flex w-80 mx-auto items-center mb-8 mt-1">
         <h1 className="text-xl ml-2.5 grow font-bold dark:text-white">
           {GAME_TITLE}
         </h1>
@@ -335,6 +349,7 @@ function App() {
         variant="success"
         topMost={true}
       />
+	  <AlertContainer />
     </div>
 	</>
   )
