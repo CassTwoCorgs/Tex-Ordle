@@ -2,7 +2,6 @@ import { getGuessStatuses } from './statuses'
 import { solutionIndex } from './words'
 import { GAME_TITLE } from '../constants/strings'
 import { getStoredIsHighContrastMode } from './localStorage'
-import { app_link_toshare } from '../constants/mlmodel'
 
 export const shareStatus = (
   guesses: string[],
@@ -12,8 +11,7 @@ export const shareStatus = (
   navigator.clipboard.writeText(
     `${GAME_TITLE} ${solutionIndex} ${lost ? 'X' : guesses.length}/6${
       isHardMode ? '*' : ''
-    }\n\n` + generateEmojiGrid(guesses) + 
-	`\n${app_link_toshare}`
+    }\n\n` + generateEmojiGrid(guesses)
   )
 }
 
