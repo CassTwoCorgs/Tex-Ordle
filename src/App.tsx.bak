@@ -33,6 +33,7 @@ import {
   isWinningWord,
   solution,
   findFirstUnusedReveal,
+  word_length,
 } from './lib/words'
 import { addStatsForCompletedGame, loadStats } from './lib/stats'
 import {
@@ -44,8 +45,9 @@ import {
 
 import './App.css'
 import { AlertContainer } from './components/alerts/AlertContainer'
-import { useAlert } from './context/AlertContext'
 import { Navbar } from './components/modals/navbar/Navbar'
+
+const MAX_WORD_LENGTH = word_length
 
 function App() {
   const prefersDarkMode = window.matchMedia(

@@ -1,4 +1,6 @@
 export const WORDS = [
+  'Texcellent'
+  /**
   'texas',
   'queso',
   'chips',
