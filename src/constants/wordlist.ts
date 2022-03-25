@@ -116,6 +116,7 @@ export const WORDS = [
   'casas',
   'quail',
 /**
+  'texcellent',
   'aside',
   'lakes',
   'bound',
