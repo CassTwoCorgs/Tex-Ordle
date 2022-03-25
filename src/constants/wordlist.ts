@@ -1,8 +1,8 @@
 export const WORDS = [
- 'texcellent',
+  'austin',
+/**
   'dallas',
   'houston',
-  'austin',
   'lubbock',
   'texas',
   'queso',
