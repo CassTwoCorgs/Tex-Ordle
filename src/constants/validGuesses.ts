@@ -13082,4 +13082,5 @@ export const VALID_GUESSES = [
   'pyote',
   'casas',
   'quail',
+  'pecans',
 ]
