@@ -47,7 +47,7 @@ export const getWordOfDay = () => {
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
   const nextday = (index + 1) * msInDay + epochMs
-  const word_length = WORDS[index % WORDS.length].toUpperCase().length
+  const word_length = solution.length
 
   return {
     solution: WORDS[index % WORDS.length].toUpperCase(),

@@ -24,4 +24,3 @@ export const CurrentRow = ({ guess, className }: Props) => {
     </div>
   )
 
-}

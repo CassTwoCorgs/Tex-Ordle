@@ -21,7 +21,6 @@ import {
   CORRECT_WORD_MESSAGE,
 } from './constants/strings'
 import {
-  MAX_WORD_LENGTH,
   MAX_CHALLENGES,
   ALERT_TIME_MS,
   REVEAL_TIME_MS,
@@ -33,6 +32,7 @@ import {
   isWinningWord,
   solution,
   findFirstUnusedReveal,
+  word_length,
 } from './lib/words'
 import { addStatsForCompletedGame, loadStats } from './lib/stats'
 import {
@@ -45,6 +45,8 @@ import {
 import './App.css'
 import { AlertContainer } from './components/alerts/AlertContainer'
 import { Navbar } from './components/modals/navbar/Navbar'
+
+const MAX_WORD_LENGTH = word_length
 
 function App() {
   const prefersDarkMode = window.matchMedia(
