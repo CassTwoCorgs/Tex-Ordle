@@ -1,4 +1,9 @@
 export const WORDS = [
+  'texcellent',
+  'dallas',
+  'houston',
+  'austin',
+  'lubbock',
   'texas',
   'queso',
   'chips',
