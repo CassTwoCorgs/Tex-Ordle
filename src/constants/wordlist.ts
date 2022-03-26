@@ -3,6 +3,8 @@ export const WORDS = [
 /**
   'houston',
   'dallas',
+  'dallas',
+  'houston',
   'lubbock',
   'texas',
   'queso',
