@@ -1,8 +1,13 @@
 export const WORDS = [
-  'dallas',
-/**
-  'houston',
   'austin',
+/**
+<<<<<<< HEAD
+  'houston',
+  'dallas',
+=======
+  'dallas',
+  'houston',
+>>>>>>> main
   'lubbock',
   'texas',
   'queso',
