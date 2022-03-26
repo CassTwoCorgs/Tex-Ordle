@@ -1,8 +1,13 @@
 export const WORDS = [
-  'texcellent',
+  'austin',
+/**
+<<<<<<< HEAD
+  'houston',
+  'dallas',
+=======
   'dallas',
   'houston',
-  'austin',
+>>>>>>> main
   'lubbock',
   'texas',
   'queso',
@@ -24,6 +29,7 @@ export const WORDS = [
   'padre',
   'bryan',
   'plano',
+  'parks',
   'cacti',
   'state',
   'lamar',
@@ -114,7 +120,6 @@ export const WORDS = [
   'pyote',
   'casas',
   'quail',
-  
 /**
   'aside',
   'lakes',
