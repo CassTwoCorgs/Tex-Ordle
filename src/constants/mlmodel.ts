@@ -1,1 +1,1 @@
-export const app_link_toshare = "https://tex-ordle.vercel.app/"
+export const app_link_toshare = "https://txhumor.com/pages/texordle"
