@@ -1,4 +1,4 @@
-export const = WORDS [
+export const WORDS = [
   'amarillo',
   'toast',
   'alamo',
@@ -256,5 +256,4 @@ export const = WORDS [
   'chili',
   'italy',
   'lubbock',
-
 ]
