@@ -1,6 +1,5 @@
 export const WORDS = [
   'austin',
-/**
   'houston',
   'dallas',
   'dallas',
