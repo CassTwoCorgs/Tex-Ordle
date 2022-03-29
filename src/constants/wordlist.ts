@@ -1,4 +1,6 @@
 export const WORDS = [
+  'georgetown',
+  /**
   'amarillo',
   'toast',
   'alamo',
@@ -256,4 +258,5 @@ export const WORDS = [
   'chili',
   'italy',
   'lubbock',
+  */
 ]
