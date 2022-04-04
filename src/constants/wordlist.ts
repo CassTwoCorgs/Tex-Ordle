@@ -128,7 +128,7 @@ export const WORDS = [
   'bucees',
   'texmex',
   'football',
-  'malone'
+  'malone',
   'zztop',
   'texit',
   'lambert',
