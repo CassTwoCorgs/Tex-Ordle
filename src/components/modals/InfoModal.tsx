@@ -10,7 +10,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the Texas themed word in 6 tries. The word can be anything in Texas like any city, county, or town. It can also be anything Texas related like celebrities, foods, sports, etc! After each guess, the color of the tiles will
+        Guess the Texas themed word in 6 tries. After each guess, the color of the tiles will
         change to show how close your guess was to the word.
       </p>
 
@@ -31,6 +31,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="C" status="present" />
         <Cell value="A" />
         <Cell value="N" />
+		<Cell value="S" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter C is in the word but in the wrong spot.
