@@ -31,20 +31,23 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="C" status="present" />
         <Cell value="A" />
         <Cell value="N" />
+		<Cell value="S" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter C is in the word but in the wrong spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="M" />
-        <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="F" status="absent" />
-        <Cell value="A" />
+        <Cell value="L" />
+        <Cell value="U" />
+        <Cell value="B" />
+        <Cell value="B" />
+        <Cell value="O" status="absent" />
+		<Cell value="C" />
+		<Cell value="K" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter F is not in the word in any spot.
+        The letter O is not in the word in any spot.
       </p>
     </BaseModal>
   )
