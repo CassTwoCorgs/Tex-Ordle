@@ -1,7 +1,7 @@
 export const WORDS = [
   'texas,'
-  'lubbock,'
   'lovett,'
+  'lubbock,'
   'bronco,'
   'chili,'
   'plano,'
