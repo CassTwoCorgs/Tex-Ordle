@@ -28,7 +28,7 @@ export const generateEmojiGrid = (guesses: string[]) => {
           switch (status[i]) {
             case 'correct':
               if (isHighContrast) {
-                return '🟧'
+                return '🤠'
               }
               return '🤠'
             case 'present':
