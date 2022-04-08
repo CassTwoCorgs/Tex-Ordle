@@ -20,7 +20,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
 		</a>{' '}
 		. {' '}
         <a
-          href="https://github.com/CassTwoCorgs/Tex-Ordle"
+          href="https://github.com/CassTwoCorgs/Tex-Ordle" target="_blank"
           className="underline font-bold"
         >
           Check out the code here!

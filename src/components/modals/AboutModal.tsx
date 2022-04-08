@@ -13,7 +13,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
 		This is a clone of the word guessing game we all know and love modified by the folks 
 		at {' '}
 		<a
-		  href="https://txhumor.com/"
+		  href="https://txhumor.com/" target="_blank"
 		  className="underline font-bold"
 		>
 		  Texas Humor

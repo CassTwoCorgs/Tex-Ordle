@@ -15,7 +15,7 @@ export const Navbar = ({
 		<p className= "text-base ml-2.5 font-normal dark:text-white">Brought to you by the folks 
 		at {' '}
 		  <a
-		    href="https://txhumor.com/"
+		    href="https://txhumor.com/" target="_blank"
 		    className="underline font-bold"
 		  >
 		    Texas Humor

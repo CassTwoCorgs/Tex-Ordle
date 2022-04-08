@@ -12,7 +12,7 @@ export const Navbar = ({
   return (
     <div className="navbar">
       <div className="navbar-content px-5">
-		<p className= "text-xl ml-2.5 font-normal dark:text-white">Brought to you by the folks 
+		<p className= "text-base ml-2.5 font-normal dark:text-white">Brought to you by the folks 
 		at {' '}
 		  <a
 		    href="https://txhumor.com/"
