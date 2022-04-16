@@ -84,7 +84,7 @@ export const WORDS = [
   'bexar',
   'crawfish',
   'migas',
-  'toobing',
+  'tubing',
   'boot',
   'boerne',
   'strait',
