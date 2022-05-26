@@ -65,7 +65,6 @@ export const WORDS = [
   'bobcat',
   'nolan',
   'barbecue',
-  'uvalde',
   'pearland',
   'alvin',
   'denton',
