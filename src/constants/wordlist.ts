@@ -202,5 +202,7 @@ export const WORDS = [
   'quail',
   'texmex',
   'navarro',
+  'milam',
+  'twang',
 
 ]
