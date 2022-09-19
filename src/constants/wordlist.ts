@@ -166,7 +166,7 @@ export const WORDS = [
   'pecos',
   'baytown',
   'emory',
-  'scorpio',
+  'scorpion',
   'rhome',
   'lagrange',
   'longhorn',
