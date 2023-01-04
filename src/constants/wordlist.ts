@@ -265,7 +265,6 @@ export const WORDS = [
   'ammigo',
   'compadre',
   'paradise',
-  'kermit',
   'fresno',
   'salado',
   'luckenbach',
