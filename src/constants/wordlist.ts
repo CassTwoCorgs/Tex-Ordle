@@ -262,5 +262,9 @@ export const WORDS = [
   'spring',
   'corsicana',
   'adios',
-
+  'fresno',
+  'salado',
+  'luckenbach',
+  'bandera',
+  
 ]
