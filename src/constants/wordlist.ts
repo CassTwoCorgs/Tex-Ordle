@@ -324,5 +324,6 @@ export const WORDS = [
 'schertz',
 'Mustangs',
 'Mesa',
- 
+'fresca',
+  
 ]
