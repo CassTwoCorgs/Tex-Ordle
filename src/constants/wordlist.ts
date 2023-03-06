@@ -345,5 +345,8 @@ export const WORDS = [
 'hogwash',
 'critter',
 'tump',
-'harvey',  
+'harvey',
+'stetson',
+'wrangler',
+'derrick',
 ]
